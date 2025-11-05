@@ -105,9 +105,11 @@ export function sobre(): void {
     console.log("https://github.com/nayaneoi                                  ");
     console.log("*************************************************************");
 }
-main();
+
 function KeyPress(): void {
     console.log(colors.reset, "");
     console.log("\nPressione enter para continuar...");
-    readlinesync.prompt();
+    readlinesync.prompt();   
 }
+
+main();
